@@ -13,10 +13,16 @@ body{
 } 
   
 /* Navigation Bar */
-  
+ 
+.navbar-header{
+  /* margin: 0% 15%; */
+
+}
+
 .navbar{
-    padding: 1% 45%;
-    padding-left: 50px;
+  margin: 0% 15%;
+  padding: 5% 45%;
+  padding-left: 50px;
 }
   
 .navbar-brand{

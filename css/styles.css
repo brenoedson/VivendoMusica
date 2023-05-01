@@ -1,0 +1,42 @@
+/***********   TAG Selectors   **********/
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+  }
+
+/***********   Class Selectors   **********/
+.container-fluid{
+  /* padding: 1% 150px; */
+  /* padding-top: 1%;
+  padding-left: 15%; */
+} 
+  
+/* Navigation Bar */
+  
+.navbar{
+    padding: 1% 45%;
+    padding-left: 50px;
+}
+  
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+  
+.nav-item{
+  padding: 0 18px;
+}
+  
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+}
+  
+
+/** ID Title **/
+#title{
+    background-color: black;
+}

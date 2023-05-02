@@ -2,12 +2,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    text-align: center;
+    text-align: left;
   }
 
 hr{
   background-color: black;
-  border-top: 5px dotted #8c8b8b;
+  size: 15px;
+  border-top: 15px dotted #8c8b8b;
 
 }
 
@@ -15,10 +16,15 @@ hr{
 
   
 /* Navigation Bar */
- 
+
+.container-fluid{
+  padding: 3% 15% 3%;
+  /* text-align: center; */
+}
+
 .navbar{
   margin: 0% 15%;
-  padding: 5% 45%;
+  /* padding: 5% 45%; */
   /* padding-left: 50px; */
 }
   
@@ -39,6 +45,14 @@ hr{
 }
   
 /* Quem somos*/
+
+.quemSomos{
+  padding: 3% 15%;
+}
+
+.quemSomos-descricao{
+  padding: 10% 15%;
+}
 
 .imagem-guitarrista{
   height: 350px;

@@ -66,3 +66,22 @@ hr{
 #title{
     background-color: #FFC75F;
 }
+
+/** Seção Subject**/
+.secao-subject{
+  padding: 3% 15% 3%;
+  text-align: center;
+}
+
+.imagem-subjects{
+  height: 150px;
+  border-radius: 50%;
+  /* float: center; */
+  margin-right: 30px;
+}
+
+/** Seção Footer**/
+.secao-footer{
+  text-align: center;
+  background-color: #FFC75F;
+}

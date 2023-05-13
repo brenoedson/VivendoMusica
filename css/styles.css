@@ -6,10 +6,7 @@ body{
   }
 
 hr{
-  background-color: black;
-  size: 15px;
-  border-top: 15px dotted #8c8b8b;
-
+  background-color: #FFC75F;
 }
 
 /***********   Class Selectors   **********/
@@ -18,7 +15,7 @@ hr{
 /* Navigation Bar */
 
 .container-fluid{
-  padding: 3% 15% 3%;
+  padding: 1% 15% 1%;
   /* text-align: center; */
 }
 
@@ -48,6 +45,7 @@ hr{
 
 .quemSomos{
   padding: 3% 15%;
+  background-color: #FFC75F;
 }
 
 .quemSomos-descricao{
@@ -71,13 +69,14 @@ hr{
 .secao-subject{
   padding: 3% 15% 3%;
   text-align: center;
+
 }
 
 .imagem-subjects{
   height: 150px;
   border-radius: 50%;
   /* float: center; */
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 /** Seção Footer**/

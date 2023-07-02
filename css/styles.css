@@ -99,3 +99,22 @@ hr{
   text-align: center;
   background-color: #FFC75F;
 }
+
+/************** Página teoria musical **********************/
+.introducao-teoria-musical{
+  text-align: center;
+  padding: 3% 0%;
+}
+
+.introducao-teoria-musical h3{
+  color: #FFC75F;
+  font-weight: 600;
+
+}
+
+.imagem-teoria-lista{
+  height: 350px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}

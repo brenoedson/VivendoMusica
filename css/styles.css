@@ -6,6 +6,14 @@ body{
   }
 
 hr{
+  border-style: solid; 
+  border-color: blueviolet; 
+  /* width: 70%;  */
+  /* border-width: 10px; */
+  margin: auto;
+  opacity: 90%;
+  align-content: center;
+  
   background-color: #FFC75F;
 }
 
@@ -20,15 +28,17 @@ hr{
 }
 
 .navbar{
-  margin: 0% 15%;
+  /* margin: 0% 15%; */
   /* padding: 5% 45%; */
   /* padding-left: 50px; */
 }
   
 .navbar-brand{
   font-family: 'Ubuntu';
-  font-size: 20px;
+  /* font-size: 20px; */
   font-weight: bold;
+  color: blueviolet; 
+  font-size: 2em;
 }
 
 .nav-item{
@@ -49,7 +59,7 @@ hr{
 }
 
 .quemSomos-descricao{
-  padding: 10% 15%;
+  padding: 3% 3%;
 }
 
 .imagem-guitarrista{
@@ -59,6 +69,11 @@ hr{
   margin-right: 30px;
 }
 
+/* Conteúdo do Site */
+
+#conteudoDoSite{
+  padding: 3% 15%;
+}
 
 /** ID Title **/
 #title{

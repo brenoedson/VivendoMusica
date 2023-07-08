@@ -38,7 +38,7 @@ hr{
   /* font-size: 20px; */
   font-weight: bold;
   color: blueviolet; 
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .nav-item{
@@ -50,7 +50,29 @@ hr{
   font-family: 'Montserrat';
   font-weight: lighter;
 }
-  
+
+/* Publicidade */
+
+.publicidadeVerticalEsquerda{
+  height: 520px;
+  width: 120px;
+  margin: 10px;
+  background-color: lightgray;
+  position: fixed;
+  top: 50px;
+}
+
+.publicidadeVerticalDireita{
+  height: 520px;
+  width: 120px;
+  margin: 10px;
+  background-color: lightgreen;
+  position: fixed;
+  right: 0px;
+  top: 50px;
+}
+
+
 /* Quem somos*/
 
 .quemSomos{
@@ -60,6 +82,7 @@ hr{
 
 .quemSomos-descricao{
   padding: 3% 3%;
+  text-align: justify;
 }
 
 .imagem-guitarrista{

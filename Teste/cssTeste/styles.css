@@ -169,27 +169,28 @@ hr{
   border-radius: 15px;
 }
 
+
 /* media Query */
 
 /* Código CSS para largura máxima de display de 900px
 Código para tornar invisíveis as publicidades laterais e reduzir o padding lateral da navbar e conteúdo*/
 @media(max-width: 900px){
-  .publicidadeVerticalEsquerda{
-      visibility: hidden;
-  }
+    .publicidadeVerticalEsquerda{
+        visibility: hidden;
+    }
+      
+    .publicidadeVerticalDireita{
+        visibility: hidden;
+    }
+
+    .container-fluid{
+        padding: 1% 10% 1%;
+        /* text-align: center; */
+    }
+
+    #conteudoDoSite{
+        padding: 3% 10%;
+    }
+
     
-  .publicidadeVerticalDireita{
-      visibility: hidden;
-  }
-
-  .container-fluid{
-      padding: 1% 10% 1%;
-      /* text-align: center; */
-  }
-
-  #conteudoDoSite{
-      padding: 3% 10%;
-  }
-
-  
 }

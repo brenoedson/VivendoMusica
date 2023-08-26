@@ -73,13 +73,8 @@ hr{
 }
 
 .publicidadeRetangular{
-  /* background-color: lightcoral; */
-  align-items: center;
-}
-
-.publicidadeRetangular img{
-  max-width: 100%;
-  height: auto;
+  width: 300px;
+  height: 250px;
   background-color: lightcoral;
 }
 
@@ -90,49 +85,11 @@ hr{
 }
 
 
-/* Quem somos*/
-
-.quemSomos{
-  padding: 3% 15%;
-  background-color: #FFC75F;
-}
-
-.quemSomos-descricao{
-  padding: 3% 3%;
-  text-align: justify;
-}
-
-.imagem-guitarrista{
-  height: 350px;
-  border-radius: 50%;
-  float: left;
-  margin-right: 30px;
-}
-
-/* Conteúdo do Site */
-
-#conteudoDoSite{
-  padding: 3% 15%;
-}
-
 /** ID Title **/
 #title{
     background-color: #FFC75F;
 }
 
-/** Seção Subject**/
-.secao-subject{
-  padding: 3% 15% 3%;
-  text-align: center;
-
-}
-
-.imagem-subjects{
-  height: 150px;
-  border-radius: 50%;
-  /* float: center; */
-  /* margin-right: 30px; */
-}
 
 /** Seção Footer**/
 .secao-footer{
@@ -169,27 +126,48 @@ hr{
   border-radius: 15px;
 }
 
-/* media Query */
+/************** Página Intervalo musical **********************/
 
-/* Código CSS para largura máxima de display de 900px
-Código para tornar invisíveis as publicidades laterais e reduzir o padding lateral da navbar e conteúdo*/
-@media(max-width: 900px){
-  .publicidadeVerticalEsquerda{
-      visibility: hidden;
-  }
-    
-  .publicidadeVerticalDireita{
-      visibility: hidden;
-  }
-
-  .container-fluid{
-      padding: 1% 10% 1%;
-      /* text-align: center; */
-  }
-
-  #conteudoDoSite{
-      padding: 3% 10%;
-  }
-
-  
+.grid-container{
+    display: grid;
+    grid-template-columns: 140px auto 140px;
+    grid-template-rows: 300px;
+    grid-auto-rows: auto;
+    gap: 10px;
+    padding: 10px;
 }
+
+.flex-container{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.barra_esquerda{
+    background-color: blue;
+}
+
+.barra_direita{
+    background-color: blue;
+}
+
+.barra_publicidade{
+    background-color: blueviolet;
+    flex: 1;
+    min-width: 140px;
+    height: 100px;
+
+}
+
+.barra_conteudo{
+    background-color: chartreuse;
+    flex: 3;
+    min-width: 300px;
+    height: 100px;
+}
+
+/* Media query para telas do tamanho de tablets */
+@media (max-width: 768px){
+
+}
+

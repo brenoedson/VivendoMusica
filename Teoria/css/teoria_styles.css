@@ -17,6 +17,10 @@ hr{
   background-color: #FFC75F;
 }
 
+h4{
+  font-weight: 600;
+}
+
 /***********   Class Selectors   **********/
 
   
@@ -73,8 +77,12 @@ hr{
 }
 
 .publicidadeRetangular{
-  width: 300px;
-  height: 250px;
+  text-align: center;
+}
+
+.publicidadeRetangular img{
+  max-width: 100%;
+  height: auto;
   background-color: lightcoral;
 }
 
@@ -90,12 +98,24 @@ hr{
     background-color: #FFC75F;
 }
 
+/* Conteúdo do Site */
+
+#conteudoDoSite{
+  padding: 3% 15%;
+}
 
 /** Seção Footer**/
 .secao-footer{
   text-align: center;
   background-color: #FFC75F;
 }
+
+/************ Tag para todos os artigos ********************/
+
+.titulo-artigo{
+  font-weight: 600;
+}
+
 
 /************** Página teoria musical **********************/
 .introducao-teoria-musical{
@@ -119,6 +139,7 @@ hr{
 .teoriamusical{
   text-align: justify;
 }
+
 .linksOutrosArtigos{
   margin-top: 10px;
   padding: 10px;
@@ -126,6 +147,18 @@ hr{
   border-radius: 15px;
 }
 
+.teoriamusical img{
+  max-width: 100%;
+  height: auto;
+}
+
+.conteudoCentralizada{
+  text-align: center;
+}
+
+.teoriamusical span{
+  color: red;
+}
 /************** Página Intervalo musical **********************/
 
 .grid-container{
@@ -166,8 +199,27 @@ hr{
     height: 100px;
 }
 
-/* Media query para telas do tamanho de tablets */
-@media (max-width: 768px){
+/* media Query */
 
+/* Código CSS para largura máxima de display de 900px
+Código para tornar invisíveis as publicidades laterais e reduzir o padding lateral da navbar e conteúdo*/
+@media(max-width: 900px){
+  .publicidadeVerticalEsquerda{
+      visibility: hidden;
+  }
+    
+  .publicidadeVerticalDireita{
+      visibility: hidden;
+  }
+
+  .container-fluid{
+      padding: 1% 10% 1%;
+      /* text-align: center; */
+  }
+
+  #conteudoDoSite{
+      padding: 3% 10%;
+  }
+
+  
 }
-
